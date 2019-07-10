@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ticket-crud
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update

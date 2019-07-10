@@ -1,0 +1,7 @@
+applications:
+  - name: ticket-crud-service
+    mmeory: 1024M
+    instances: 1
+    services:
+      - mysql-service-tmp
+    path: ./build/libs/ticket-crud-0.0.1-SNAPSHOT.jar
